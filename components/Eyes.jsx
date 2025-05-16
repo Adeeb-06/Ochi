@@ -23,7 +23,7 @@ const Eyes = () => {
     return (
         <>
             <div className='w-full h-screen overflow-hidden'>
-                <div className=" eyes relative h-full w-full bg-cover bg-center ">
+                <div data-scroll data-scroll-speed="-.6" className=" eyes relative h-full w-full bg-cover bg-center ">
                     <div className="absolute flex gap-10 -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2">
                         <div className='w-[15vw] items-center flex justify-center h-[15vw] bg-zinc-100 rounded-full  '>
                             <div className=' w-2/3 relative bg-black h-2/3 rounded-full text-center flex items-center justify-center text-xl '>

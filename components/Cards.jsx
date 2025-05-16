@@ -10,7 +10,7 @@ const foundersNeue = localFont({
 const Cards = () => {
     return (
         <>
-            <div className='h-screen flex gap-10 w-full items-center px-14 bg-zinc-200'>
+            <div data-scroll data-scroll-speed=".6" className='h-screen flex gap-10 w-full items-center px-14 bg-zinc-200'>
                 <div className="containers w-1/2  h-[50vh]">
                     <div className="cards relative flex items-center justify-center  rounded-3xl w-full bg-[#004D43] h-full ">
                         <div className="img relative h-1/5  w-36 ">

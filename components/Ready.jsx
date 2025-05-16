@@ -30,7 +30,7 @@ const Ready = () => {
     })
 
     return (
-        <div className="w-full h-screen relative   bg-[#CDEA68] flex justify-center items-center px-14 flex-col ">
+        <div data-scroll data-scroll-section  className="w-full h-screen relative   bg-[#CDEA68] flex justify-center items-center px-14 flex-col ">
             <div className="absolute flex gap-10 -translate-x-[50%] -translate-y-[60%] top-1/2 left-1/2">
                 <div className='w-[13vw] items-center flex justify-center h-[13vw] bg-zinc-100 rounded-full  '>
                     <div className=' w-2/3 relative bg-black h-2/3 rounded-full text-center flex items-center justify-center text-xl '>

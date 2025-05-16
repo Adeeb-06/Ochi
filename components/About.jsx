@@ -9,7 +9,7 @@ const foundersNeue = localFont({
 const About = () => {
   return (
     <>
-    <div className='w-full p-14 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black '>
+    <div data-scroll data-scroll-offset="-100%, -100%" data-scroll-section data-scroll-speed="-.55" className='w-full p-14 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black '>
         <h1 className={`${foundersNeue.className} text-[4vw] leading-[4.5vw] tracking-tight `}>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
         <div className='w-full flex gap-5 border-t-2 mt-16 pt-10 border-[#b0c75b] '>
             <div className='w-1/2'>
